@@ -1,0 +1,19 @@
+use_default_settings: true
+
+general:
+  instance_name: "CuySearch Local"
+
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json
+
+server:
+  bind_address: "127.0.0.1"
+  port: 8888
+  limiter: false
+  image_proxy: false
+
+valkey:
+  url: false
