@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.env
+dist/
+build/
+.build/
+.build-cache/
+macos/CuySearchManager/.build/
+macos/CuySearchManager/.icon-build/
+# Se generan con generate-icons.sh a partir de *Source.png.
+macos/CuySearchManager/Assets/AppIcon.icns
+macos/CuySearchManager/Assets/AppIcon.png
+macos/CuySearchManager/Assets/MenuBarIconTemplate.png
